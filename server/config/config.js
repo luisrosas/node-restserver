@@ -32,3 +32,8 @@ if (process.env.NODE_ENV === 'local') {
 }
 
 process.env.URLDB = urlDB;
+
+//  ======================================
+//   Google client id
+//  ======================================
+process.env.GOOGLE_CLIENT_ID = process.env.GOOGLE_CLIENT_ID || '974233101349-ufac6cui4bq3625j8743qrmnn2642il5.apps.googleusercontent.com';
